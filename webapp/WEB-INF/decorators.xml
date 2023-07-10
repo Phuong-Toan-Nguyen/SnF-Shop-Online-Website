@@ -1,0 +1,9 @@
+<decorators defaultdir = "/WEB-INF/views/layouts"> <!-- phai la defaultdir thi phan trang-chu/ moi chay -->
+	<decorator name = "user" page="user.jsp">
+		<pattern>/*</pattern>
+	</decorator>
+	
+	<decorator name = "admin" page="admin.jsp">
+		<pattern>/quan-tri/*</pattern>
+	</decorator>
+</decorators>
